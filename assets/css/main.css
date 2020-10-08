@@ -958,6 +958,16 @@ pre code {
   color: #311e3e;
 }
 
+.main-nav ul li details summary {
+  display: block;
+  padding: 15px 0;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 18px;
+  color: #311e3e;
+}
+
 .main-nav ul li a:hover {
   opacity: .8;
   color: #87314e;
