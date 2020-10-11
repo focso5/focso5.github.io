@@ -1,21 +1,59 @@
 ---
 layout: post
-title: 정보처리기사(2020)
+title: 정보처리기사_1과목_
 date:   2020-10-11 10:34:20 +0300
 description:  
 permalink: /licenses/1
 img: post-licenses.jpg # Add image post (optional) 
-tags: [자격증, 정보처리기사]
+tags: [자격증, 정보처리기사(2020)]
 author: Adam Neilson # Add name author (optional)
 --- 
-Vaporware snackwave stumptown, small batch tattooed try-hard prism fanny pack 3 wolf moon edison bulb tofu hot chicken vice. Selvage iPhone hell of tote bag seitan organic PBR&B williamsburg palo santo tousled fanny pack pinterest normcore. Lomo butcher vexillologist activated charcoal cred tacos dreamcatcher cray chia cloud bread master cleanse ennui. Copper mug hella iceland occupy venmo. Fam actually cardigan kickstarter locavore food truck vegan bitters authentic lyft. Vaporware listicle keffiyeh adaptogen. Cloud bread stumptown swag la croix polaroid pickled. Next level yuccie four dollar toast polaroid. Portland chicharrones craft beer helvetica 3 wolf moon.
+1.요구사항 확인
+===
+### 1.1.소프트웨어 생명 주기(Software Life Cycle) 
 
-Fanny pack wolf asymmetrical PBR&B activated charcoal chia retro iPhone. Everyday carry artisan live-edge bespoke ramps. Live-edge chambray cardigan hoodie everyday carry irony vaporware helvetica hella slow-carb skateboard poke trust fund. Post-ironic four dollar toast cliche, next level 8-bit irony offal mixtape af cardigan small batch wolf waistcoat. Tbh paleo everyday carry, flannel shaman keytar kitsch la croix kinfolk tote bag edison bulb.
+1. 폭포수 모형(Waterfall Model)
+  - 가장오래되고 폭 넓게 사용
+  - 선형, 순차적 모형
+  - 매뉴얼 작성 필요
+  - 명확한 결과물 산출
+  - 전통적인 소프트웨어 생명주기 모형
 
-> Snackwave chillwave seitan whatever, flannel wolf vinyl occupy activated charcoal succulents waistcoat. Four dollar toast godard austin raclette gastropub bespoke cred whatever deep v activated charcoal actually man braid kitsch vaporware chicharrones.
 
-Taxidermy shaman irony williamsburg bespoke. Freegan ugh mumblecore selfies, shabby chic neutra everyday carry. Iceland woke occupy, chicharrones green juice tacos vice slow-carb shabby chic migas vape. Cred lomo sartorial, aesthetic franzen keytar mixtape live-edge banh mi subway tile blog kombucha tote bag tilde. Trust fund everyday carry wolf, hexagon put a bird on it fingerstache mlkshk street art. Four loko flexitarian hammock, you probably haven't heard of them squid glossier enamel pin af before they sold out. Jianbing narwhal chartreuse helvetica 3 wolf moon quinoa. 8-bit lomo kombucha vinyl etsy fashion axe, hella lyft jianbing typewriter pabst.
+![Yosh Ginsu]({{site.baseurl}}/assets/img/waterfall.png)
 
-![Yosh Ginsu]({{site.baseurl}}/assets/img/yosh-ginsu.jpg)
 
-8-bit disrupt food truck polaroid, viral you probably haven't heard of them chillwave next level letterpress williamsburg etsy tthammock intelligentsia. Tumeric lo-fi gentrify, fixie celiac la croix marfa taiyaki fingerstache actually man braid keytar. Brunch coloring book succulents church-key umami affogato. Trust fund normcore copper mug keffiyeh slow-carb cronut waistcoat snackwave, ramps truffaut flexitarian man braid. Celiac flexitarian authentic hashtag wayfarers. Next level pitchfork scenester godard. Salvia etsy edison bulb knausgaard poke jianbing actually. Mlkshk retro cardigan photo booth swag. Occupy shaman austin, meditation green juice flannel succulents twee. Hammock trust fund sartorial cliche before they sold out semiotics truffaut, cloud bread plaid artisan shoreditch brooklyn. Shoreditch air plant asymmetrical DIY. Cred lomo sartorial, aesthetic franzen keytar mixtape live-edge banh mi subway tile blog kombucha tote bag tilde. Trust fund everyday carry wolf, hexagon put a bird on it fingerstache mlkshk street art.
+2. 프로토타입 모형(Prototype Model, 원형 모델)
+  - 견본품
+  - 최종 결과물 예측 모형
+  - 골격 코드
+  - 폭포수 모형의 단점 보완
+
+![Yosh Ginsu]({{site.baseurl}}/assets/img/prototype.png)
+
+3. 나선형 모형(Spiral Model, 점진적 모형)
+  - 보헴(Boehm)
+  - 위험 분석 기능 추가
+  - 점진적으로 완벽한 최종 소프트웨어 개발
+  - 요구사항 첨가
+  - 위험 관리 & 최소화 
+  - 매뉴얼 정밀 작성
+  - 유지보수 불필요
+  - 여러번의 개발과정
+
+![Yosh Ginsu]({{site.baseurl}}/assets/img/spiral.png)
+
+4. 애자일 모형(Agile Model)
+  - 고객중심
+  - 개발주기 반복
+  - 급변하는 요구사항에 적합
+  - 숙달된 개발자 필요
+  - 소규모 프로젝트에 적합 
+
+#### * 애자일 프로세스 모델 종류
+  - 스크럽(Scrum)
+  - XP(eXtreme Programming)
+  - ASD(Adapgive Software Development)
+
+
+![Yosh Ginsu]({{site.baseurl}}/assets/img/agile.png)
