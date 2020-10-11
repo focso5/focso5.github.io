@@ -1,10 +1,10 @@
 ---
 layout: home-page
-permalink: /javaScript/
+permalink: /portfolio/
 ---
 <ol class="post-card-box clearfix">
   {% for post in site.posts %}
-  {% if post.tags[0] == "javaScript" %}
+  {% if post.tags[0] == "portfolio" %}
      <li>
       <div class="post-card">
         <a href="{{post.url | prepend: site.baseurl}}" class="post-card-image" style="background-image: url( {{ "/assets/img/" | prepend: site.baseurl | append : post.img}} )">
