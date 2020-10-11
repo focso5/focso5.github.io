@@ -968,10 +968,6 @@ pre code {
   color: #311e3e;
 }
 
-.subLi { 
-  font-size: 14px; 
-} 
-
 .main-nav ul li a:hover {
   opacity: .8;
   color: #87314e;
