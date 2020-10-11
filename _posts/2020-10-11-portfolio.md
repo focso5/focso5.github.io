@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  portfolio
-date:   2020-10-11 10:28:20 +0300
+title: portfolio
+date: 2020-10-11 10:28:20 +0300
 description:  
 permalink: /portfolio/1
 img: post-portfolio.png # Add image post (optional) 
