@@ -958,14 +958,8 @@ pre code {
   color: #311e3e;
 } 
 
-.subLi {
-  display: block;
-  padding: 15px 0;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-weight: 400;
-  font-size: 14px;
-  color: #311e3e;
+.subLi { 
+  font-size: 14px; 
 } 
 
 .main-nav ul li a:hover {
