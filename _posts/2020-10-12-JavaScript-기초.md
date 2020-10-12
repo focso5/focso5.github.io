@@ -22,3 +22,30 @@ JavaScript란?
 - 언어를 사용하는 대상.
 - 자바스크립트를 사용할때 사용환경에 맞는 문법을 사용해야 한다.
 
+수학 관련 가테고리 
+Math.pow() : 제곱
+    => Math.pow(3,2)  // 3의 2승 = 9
+
+Math.round() : 반올림
+   => Math.round(10.6)  // 11
+
+Math.ceil() : 소수점 버리고 올림
+   => Math.ceil(10.2)  // 11
+
+Math.floor() : 소수점 버림.
+   => Math.floor(10.2)   // 10
+
+Math.sqrt() : 제곱
+   => Math.sqrt(9)  // 9의 제곱근은 3
+
+Math.random() : 랜덤수
+    => 100 * Math.random() // 100보다 작은 임의의 숫자를 출력
+
+문자
+    - escape 
+        alert('egoing\ 's coding everybody');
+        => 홑따옴표(')로 묶었는데 문자열에 홑따옴표가 또 들어갔을 경우 역슬래시(\)를 사용한다.
+    - typeof
+        typeof 1   // "number"
+        typeof "1"  // "string"
+        => 데이터 타입이 무엇인지 궁금할때
