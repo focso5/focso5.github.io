@@ -1,0 +1,51 @@
+I"[<h3 id="숫자의-합-_11720">숫자의 합 _11720</h3>
+
+<p>package baekJoon;</p>
+
+<p>import java.util.Scanner;</p>
+
+<p>/*</p>
+<ul>
+  <li>
+    <p>문제
+N개의 숫자가 공백 없이 쓰여있다. 이 숫자를 모두 합해서 출력하는 프로그램을 작성하시오.</p>
+
+    <p>입력
+첫째 줄에 숫자의 개수 N (1 ≤ N ≤ 100)이 주어진다. 둘째 줄에 숫자 N개가 공백없이 주어진다.
+ */
+public class Test {<br />
+ public static void main(String[] args) {
+     Scanner sc = new Scanner(System.in);</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> System.out.println("첫번째 값 입력 : ");
+ int first = sc.nextInt();
+ 
+ String second ;
+	
+ int sum = 0 ;
+	 
+ System.out.println("두번째 값 입력 : ");
+ second = sc.next();  
+	
+ /*
+  * second변수에는 숫자가 연달아 들어오지만 길이가 first변수의 수보다 길면 안됨. 
+  * ex) first = 2 이면 second = 12 이렇게 두개의 숫자가 연달아 올 수 있다. second = 123은 안됨.
+  */ 
+ if(first == second.length()) {
+		 
+     for (int i = 0; i &lt; second.length(); i++) { 
+         sum += Integer.parseInt(second.charAt(i)+""); 
+     }  
+		
+     System.out.println(sum);
+ }else {
+     System.out.println("다시 입력");
+ }
+</code></pre></div>    </div>
+
+    <p>} 
+}</p>
+  </li>
+</ul>
+
+:ET
