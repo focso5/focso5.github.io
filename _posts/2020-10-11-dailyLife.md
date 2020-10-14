@@ -14,4 +14,6 @@ author: Adam Neilson # Add name author (optional)
 
 줄거리
 
+정신질환을 앓다 돌아가신 어머니 밑에서 자란 파커는 커서 정신과 의사가 된다.
+
 

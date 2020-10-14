@@ -49,3 +49,18 @@ Math.random() : 랜덤수
         typeof 1   // "number"
         typeof "1"  // "string"
         => 데이터 타입이 무엇인지 궁금할때
+
+문자의 연산
+    - 문자열 안에 \n을 쓰게되는 경우 줄바꿈이 됨.
+        => alert("coding\neverybody");
+        //결과 : coding 
+                everybody
+    - 문자열 결합
+        => alert("coding"+" everybody");
+        //결과 : coding everybody
+
+변수(Variable)
+: 변하는 데이터를 담는다. var이라는 약자를 사용한다. var은 생략이 가능하다.
+
+데이터타입 비교시 일치연산자(===) 사용을 권장한다.
+
